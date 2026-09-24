@@ -25,8 +25,14 @@
 | git stash pop | Restore stash |
 | git rm *file* | Delete file |
 | git checkout --ours -- *file* | Keep own version of a file e.g. when merge conflict |
-
-
+| git clone `https://github.com/username/repo-name.git` | Clone a repo |
+| git remote -v | Check the current remote of a git project |
+| git remote set-url origin `https://github.com/newusername/new-repo.git` | Change the remote to a new repo |
+| git switch -c *branch-name* | Create and switch to a new branch |
+| git switch main/*branch-name* | Switch to main branch or other branch |
+| git merge *branch-name* | Merge branch into the current branch |
+| git branch -d *branch-name* | (Optional) Delete branch |
+| git push origin --delete *branch-name* | Delete branch from Github |
 
 ---
 
