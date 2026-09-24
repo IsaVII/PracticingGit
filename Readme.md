@@ -7,11 +7,12 @@
 |----------|----------|
 | git init   | Initialize git in the current folder   |
 | git status | See changed files |
-| git add . | Stash all current changes |
-| git commit -m "*comment*" | Commit all stashed changes to git -> stash is empty afterwards | 
+| git add . | Stage all current changes |
+| git commit -m "*comment*" | Commit all staged changes to git -> stage is empty afterwards | 
 | git branch -M main | Renames current branch into **main** |
 | git remote add origin `https://github.com/username/repo-name` | Connects git with a repo on GitHub |
 | git push -u origin main | Pushed to main-branch | 
+| git commit -am "*comment*" | 
 
 
 ---
