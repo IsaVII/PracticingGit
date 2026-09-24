@@ -16,9 +16,14 @@
 | git push | Push after git push -u origin main was done once |
 | git log | Show full comment history: author, date, message, hash (press **Q** to quit back to terminal) |
 | git log --oneline | Comment history: one line per commit - easier to read |
-| git stash push -- *file* | Stashes changes in *file* |
 | git diff *file* | See differences between local file and staged file-version |
 | git restore -- staged *filename* | Removed file from staged without changing local version |
+| git stash push -- *file* | Stashes changes in *file* |
+| git stash list | Show stash list |
+| git stash show stash@{*stash number*} | See what is inside a stash |
+| git stash show -p stash@{*stash number*} | See line-by-line changes in the stash |
+| git stash pop | Restore stash |
+| git rm *file* | Delete file |
 
 
 ---
