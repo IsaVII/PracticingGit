@@ -24,6 +24,8 @@
 | git stash show -p stash@{*stash number*} | See line-by-line changes in the stash |
 | git stash pop | Restore stash |
 | git rm *file* | Delete file |
+| git checkout --ours -- *file* | Keep own version of a file e.g. when merge conflict |
+
 
 
 ---
