@@ -37,7 +37,11 @@
 | git revert HEAD | Revert the latest commit |
 | git reset *commit-id* | Reset to an earlier commit |
 | git reset --soft Head | Remove last commit, but keep changes staged |
-
+| git tag vx.x.x | Add a tag to the current commit (e.g. v1.0.0) |
+| git tag | See the tags |
+| git show vx.x.x | See informatiion (e.g. changes, date, etc) about the tag/commit |
+| git push origin vx.x.x | Push a specific tag |
+| git push origin --tags | Push all tags |
 
 ---
 
