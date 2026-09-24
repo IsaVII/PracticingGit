@@ -36,7 +36,7 @@
 | git revert *commit-id* | Undo commit without deleting from history |
 | git revert HEAD | Revert the latest commit |
 | git reset *commit-id* | Reset to an earlier commit |
-| git reset --soft Head~1 | Remove last commit, but keep changes staged |
+| git reset --soft Head | Remove last commit, but keep changes staged |
 
 
 ---
