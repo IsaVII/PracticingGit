@@ -12,7 +12,7 @@
 | git commit -am "*comment*" | Commit all files that are already being tracked by git (no new ones) |
 | git branch -M main | Renames current branch into **main** |
 | git remote add origin `https://github.com/username/repo-name` | Connects git with a repo on GitHub |
-| git push -u origin main | Pushed to main-branch |
+| git push -u origin main | Push all commits to main-branch |
 | git push | Push after git push -u origin main was done once |
 | git log | Show full comment history: author, date, message, hash (press **Q** to quit back to terminal) |
 | git log --oneline | Comment history: one line per commit - easier to read |
