@@ -33,6 +33,11 @@
 | git merge *branch-name* | Merge branch into the current branch |
 | git branch -d *branch-name* | (Optional) Delete branch |
 | git push origin --delete *branch-name* | Delete branch from Github |
+| git revert *commit-id* | Undo commit without deleting from history |
+| git revert HEAD | Revert the latest commit |
+| git reset *commit-id* | Reset to an earlier commit |
+| git reset --sofft Head~1 | Remove last commit, but keep changes staged |
+
 
 ---
 
